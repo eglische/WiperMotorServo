@@ -1,3 +1,6 @@
+// Adapted version for IBT_2 H-bridge, fine tuned for a 250w wheelchair motor (75rpm) and a P3022-V1-CW360 rotary hall encoder.
+// If you like to use a normal poti, just increase again "potMax" to 1024 for the full resolution.
+
 #include <PID_v1.h>  // PID loop from http://playground.arduino.cc/Code/PIDLibrary
 
 // Pin assignments
